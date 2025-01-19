@@ -1,0 +1,13 @@
+<< -> num*2^x
+
+(x == number of times shifts)
+
+>> -> num/2^x
+
+
+OPERATOR PRECEDENCE --> https://www.geeksforgeeks.org/operator-precedence-and-associativity-in-c/
+
+
+
+6<<-14
+98>>72
