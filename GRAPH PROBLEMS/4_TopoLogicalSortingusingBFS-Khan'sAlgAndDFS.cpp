@@ -77,13 +77,14 @@ class Solution {
             
             int node = qu.front();
             qu.pop();
+            ans.push_back(node);
             
             for(int i=0; i<adj[node].size(); i++){
                 
                 inDegree[adj[node][i]]--;
                 if(! inDegree[adj[node][i]]){
                      qu.push(adj[node][i]);
-                     ans.push_back(adj[node][i]);
+                     
                 }
                 
             }
